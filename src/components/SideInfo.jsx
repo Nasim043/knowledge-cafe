@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SideInfo = () => {
+const SideInfo = ({spentTime}) => {
   return (
-    <div>
-      <h1>I am in side info</h1>
+    <div className='w-2/5 bg-amber-300 p-5'>
+      <h1 className=''>Spent time on read : {spentTime} min</h1>
     </div>
   );
 };
