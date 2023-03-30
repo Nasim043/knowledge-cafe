@@ -5,7 +5,7 @@ const SingleBlog = (props) => {
   const handleSpentTime = props.handleSpentTime;
   const handleBookMark = props.handleBookMark;
   return (
-    <div className="card w-full md:w-11/12 bg-base-100 shadow-xl mb-8 rounded-none">
+    <div className="card w-full md:w-11/12 bg-base-100 shadow-xl mb-8 rounded-md">
       <figure>
         <img src={cover_photo} alt={author_name} />
       </figure>

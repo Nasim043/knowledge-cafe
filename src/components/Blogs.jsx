@@ -11,7 +11,7 @@ const Blogs = ({handleSpentTime, handleBookMark}) => {
   },[])
 
   return (
-    <div className='w-full px-1 md:w-4/5 bg-red-300'>
+    <div className='w-full md:w-4/5'>
       {blogs.map(blog=>(
         <SingleBlog 
           key={blog.id}

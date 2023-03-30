@@ -2,7 +2,7 @@ import React from 'react';
 
 const SideInfo = ({ spentTime, bookmarked }) => {
   return (
-    <div className='w-2/5'>
+    <div className='md:w-2/5'>
       <div className='bg-slate-100 text-center mb-5'>
         <h1 className='font-bold text-xl text-title-blue p-5'>Spent time on read : {spentTime} min</h1>
       </div>
