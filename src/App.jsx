@@ -1,12 +1,14 @@
 import './App.css'
-import Cards from './components/Cards'
+import Blogs from './components/Blogs'
 import Header from './components/Header'
+import SideInfo from './components/SideInfo'
 
 function App() {
   return (
     <div className='max-w-7xl mx-auto'>
     <Header />
-    <Cards />
+    <Blogs />
+    <SideInfo />
     </div>
   )
 }
