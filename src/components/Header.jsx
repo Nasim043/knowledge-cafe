@@ -6,8 +6,8 @@ const Header = () => {
       <div className="flex-1">
         <a className="text-4xl font-bold">Knowledge Cafe</a>
       </div>
-      <div className="w-12 rounded-full">
-        <img src="https://p.kindpng.com/picc/s/394-3947019_round-profile-picture-png-transparent-png.png" />
+      <div>
+        <img className="w-14 rounded-full" src="https://randomuser.me/api/portraits/women/72.jpg" />
       </div>
     </div>
   );
