@@ -16,7 +16,7 @@ function App() {
   }
   const handleBookMark = (newBookMark) => {
     const isExist = bookmarked.includes(newBookMark);
-    if(isExist){
+    if (isExist) {
       toast("You Have Already Bookmarked This Blog");
     }
     setBookmMarked([...bookmarked, newBookMark])

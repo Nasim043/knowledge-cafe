@@ -48,12 +48,12 @@ const Blog = () => {
             3. What is the Purpose of useEffect other than fetching data?
           </div>
           <div className="collapse-content">
-            <div className="text-lg">useEffect is a react Hook that lets us synchronize a component with an external system. 
-            This hook allows us to perform side effects in our components. One example of side effects is fetching data.
-              Some other uses of useEffect hooks are Updating the Dom and Setting any subscriptions or timers. 
+            <div className="text-lg">useEffect is a react Hook that lets us synchronize a component with an external system.
+              This hook allows us to perform side effects in our components. One example of side effects is fetching data.
+              Some other uses of useEffect hooks are Updating the Dom and Setting any subscriptions or timers.
               useEffect accepts two arguments. The second argument is optional.
               <br /><code>useEffect(callback, dependenies)</code><br />
-              callback function can perform any side effects, such as fetching data from an API or updating the dom. 
+              callback function can perform any side effects, such as fetching data from an API or updating the dom.
               Dependencies is an optional array of values that the callback function relies on.
             </div>
           </div>
@@ -64,11 +64,11 @@ const Blog = () => {
           </div>
           <div className="collapse-content">
             <div className="text-lg">
-            React is a Javascript library that are mainly used for building the user interface (UI). 
-            Components are the reusable pieces of UI code that can be combined to create more complex UIs.
-             When a component is rendered, React creates a virtual representation of the UI, which is an in-memory representation of the actual DOM. 
-             When a user interacts with a React component, React updates the virtual DOM to reflect the change.
-             This process, known as reconciliation, helps to optimize performance and manage the state of the UI. 
+              React is a Javascript library that are mainly used for building the user interface (UI).
+              Components are the reusable pieces of UI code that can be combined to create more complex UIs.
+              When a component is rendered, React creates a virtual representation of the UI, which is an in-memory representation of the actual DOM.
+              When a user interacts with a React component, React updates the virtual DOM to reflect the change.
+              This process, known as reconciliation, helps to optimize performance and manage the state of the UI.
             </div>
           </div>
         </div>
