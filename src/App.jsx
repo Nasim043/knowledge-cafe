@@ -5,6 +5,7 @@ import Header from './components/Header'
 import SideInfo from './components/SideInfo'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Blog from './components/Blog';
 
 function App() {
   const [spentTime, setSpentTime] = useState(0);
@@ -30,6 +31,7 @@ function App() {
         <SideInfo spentTime={spentTime} bookmarked={bookmarked} />
       </div>
       <ToastContainer />
+      <Blog />
     </div>
   )
 }
