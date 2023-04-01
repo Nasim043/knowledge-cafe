@@ -27,7 +27,8 @@ const SingleBlog = (props) => {
         </div>
       </div>
       <h2 className='text-3xl font-bold px-1'>{blog_title}</h2>
-      <span className='font-medium text-lg px-1 my-4 text-title-blue cursor-pointer underline decoration-title-blue' onClick={() => { handleSpentTime(read_time) }}>Mark as read</span>
+      {/* <button className='font-medium text-lg px-1 my-4 text-title-blue cursor-pointer underline inline decoration-title-blue text-left bg-red-200' onClick={() => { handleSpentTime(read_time) }}>Mark as read</button> */}
+      <button className=" md:w-1/3 font-medium text-lg px-1 my-4 text-title-blue cursor-pointer underline inline decoration-title-blue text-left" onClick={() => { handleSpentTime(read_time) }}>Mark as read</button>
     </div>
   );
 };
